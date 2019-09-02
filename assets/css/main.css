@@ -187,15 +187,7 @@ h2 {
   letter-spacing: 0.08em;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-}
-
-h2::before {
-  content: "—";
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  font-size: var(--l);
-  margin-right: var(--xs);
-  line-height: var(--l);
+  text-align: center;
 }
 
 h3 {
@@ -557,6 +549,15 @@ p {
 
   #home .container h2 {
     font-size: 26px;
+  }
+
+  #home .container h2::before {
+    content: "—";
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: var(--l);
+    margin-right: var(--xs);
+    line-height: var(--l);
   }
 
   section .col-md-4 {
