@@ -646,6 +646,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   flex: 1;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   text-align: left;
 }
 
@@ -662,8 +663,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   height: 4px;
   border: none;
   border-bottom: 4px solid #000;
-  align-self: center;
   margin-right: 10px;
+  padding-top: 10px;
 }
 
 #home .content {
@@ -718,7 +719,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 #about .icon-wrapper {
   height: 10vw;
   width: 10vw;
-  background: #9d9c9c;
+  background: #555555;
   border-radius: 50%;
   margin: auto;
   display: flex;
@@ -727,8 +728,12 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 }
 
 #about .icon-wrapper img {
-  width: 80%;
+  width: 75%;
   height: auto;
+}
+
+#about .icon-wrapper .fixer {
+  margin-right: -5px;
 }
 
 @media (max-width: 767px) {
@@ -1075,6 +1080,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 #contact .contact-wrapper {
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 #contact .contact-info i {

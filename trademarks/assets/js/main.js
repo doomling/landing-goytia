@@ -21,9 +21,9 @@ $(document).ready(function() {
 
   $(".animated-text").typed({
     strings: [
-      "Fast Search Service",
-      "Translate Proficiency and Efficiency",
-      "do Premium service for a standard fee"
+      "Trademark Filings",
+      "European Union Filings",
+      "Global TM Registrations"
     ],
     typeSpeed: 50,
     loop: true
