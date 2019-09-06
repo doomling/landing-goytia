@@ -551,15 +551,6 @@ p {
     font-size: 26px;
   }
 
-  #home .container h2::before {
-    content: "—";
-    font-weight: 700;
-    color: rgb(0, 0, 0);
-    font-size: var(--l);
-    margin-right: var(--xs);
-    line-height: var(--l);
-  }
-
   section .col-md-4 {
     margin-bottom: 40px;
   }
@@ -652,6 +643,36 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 #home .caption h2 {
   color: black;
   font-weight: bolder;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#home .title {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  margin-left: -55px;
+}
+
+#home .title hr {
+  width: 80px;
+  height: 4px;
+  border: none;
+  border-bottom: 4px solid #000;
+  align-self: center;
+  margin-right: 10px;
+}
+
+#home .content {
+  padding: 40px;
+  max-width: 580px;
+  font-weight: 400;
+  color: #a2a2a2;
+  line-height: 160%;
+  max-width: 620px;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif
 }
 
 #home .accent {
@@ -680,6 +701,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 
 #about .icon-box {
   margin-top: 60px;
+  padding: 20px;
 }
 
 #about .icon-box i {
@@ -707,11 +729,19 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   height: auto;
 }
 
+@media (max-width: 767px) {
+  #about .icon-wrapper {
+    height: 20vw;
+    width: 20vw;
+  }
+}
+
 /*========================================
            Story
 ========================================*/
 #story {
   background: #F8FAFB;
+  padding: 70px 30px;
 }
 
 #story .col-md-6 {
@@ -1038,6 +1068,11 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
   padding: 30px;
   color: #fff;
+}
+
+#contact .contact-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 #contact .contact-info i {
