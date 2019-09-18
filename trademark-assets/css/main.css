@@ -14,7 +14,6 @@
 ========================================*/
 body {
   font-family: 'Lato', sans-serif;
-  color: #496174;
   background: #fff;
   font-size: 14px;
   line-height: 24px;
@@ -301,6 +300,7 @@ p {
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
 
   nav.navbar.bootsnav .navbar-toggle {
@@ -616,7 +616,7 @@ nav.navbar.bootsnav.navbar-fixed ul.nav>li>a {
 }
 
 nav .container {
-  padding: 15px;
+  padding: 30px;
 }
 
 nav.navbar.bootsnav.navbar-fixed .button-holder {
@@ -1126,9 +1126,10 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
            Footer
 ========================================*/
 footer {
-  background: #000000;
-  color: #fff;
-  padding: 40px 0;
+  background: #fff;
+  color: #333;
+  padding: 40px 20px;
+  border-top: 0.25rem solid #ff0400;
 }
 
 footer hr {
@@ -1143,27 +1144,23 @@ footer ul {
   padding: 0;
 }
 
+footer .offices li {
+  padding: 0 50px 0 0;
+}
+
+footer h6 {
+  font-weight: 700;
+  color: #000;
+  font-size: 1.25em;
+  margin-bottom: 0.5em;
+  font-family: "Playfair Display", serif;
+}
+
 footer li {
   display: inline-block;
-}
-
-footer li a {
-  font-size: 20px;
-  padding: 12px;
-  color: #fff;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-footer li a:hover,
-footer li a:focus,
-footer li a:active {
-  color: #496174;
-}
-
-.isologo {
-  width: 40px;
-  height: auto;
+  color: #a2a2a2;
+  font-weight: 400;
+  margin: 0.1em 0;
 }
 
 .flex {
