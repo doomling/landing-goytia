@@ -527,7 +527,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         content: "\f0d7";
         margin-left: 5px;
         margin-top: 2px;
@@ -569,14 +571,18 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         float: right;
         content: "\f105";
         margin-top: 0;
     }
     
     nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         float: left;
         content: "\f104";
         margin-top: 0;
@@ -935,7 +941,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.bootsnav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li.dropdown > a:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         content: "\f105";
         float: right;
     }
@@ -967,7 +975,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu .title:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         content: "\f105";
         float: right;
     }
@@ -1043,7 +1053,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
     nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         content: "\f105";
         float: right;
         font-size: 16px;
@@ -1147,7 +1159,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
     
    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before{
-        font-family: 'FontAwesome';
+        
+  font-display: swap;
+  font-family: 'FontAwesome';
         content: "\f105";
         float: right;
         font-size: 16px;

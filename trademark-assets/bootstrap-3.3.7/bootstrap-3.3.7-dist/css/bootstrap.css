@@ -5,6 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
+  
+  font-display: swap;
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -105,6 +107,8 @@ code,
 kbd,
 pre,
 samp {
+  
+  font-display: swap;
   font-family: monospace, monospace;
   font-size: 1em;
 }
@@ -261,6 +265,8 @@ th {
   }
 }
 @font-face {
+  
+  font-display: swap;
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
@@ -270,6 +276,8 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
+  
+  font-display: swap;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
@@ -1082,6 +1090,8 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
+  
+  font-display: swap;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -1092,6 +1102,8 @@ input,
 button,
 select,
 textarea {
+  
+  font-display: swap;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -1183,6 +1195,8 @@ h6,
 .h4,
 .h5,
 .h6 {
+  
+  font-display: swap;
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -1531,6 +1545,8 @@ code,
 kbd,
 pre,
 samp {
+  
+  font-display: swap;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 code {
@@ -5990,6 +6006,8 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
+  
+  font-display: swap;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-style: normal;
@@ -6109,6 +6127,8 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
+  
+  font-display: swap;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
@@ -6378,6 +6398,8 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
+  
+  font-display: swap;
   font-family: serif;
   line-height: 1;
 }

@@ -20,7 +20,9 @@ html,body {
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    
+  font-display: swap;
+  font-family: 'Open Sans', sans-serif;
     position: relative;
 	font-size:14px;
 	line-height:24px;
