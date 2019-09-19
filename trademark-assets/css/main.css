@@ -13,7 +13,7 @@
           Base Style
 ========================================*/
 body {
-  
+
   font-display: swap;
   font-family: 'Lato', sans-serif;
   background: #fff;
@@ -179,7 +179,7 @@ h1 {
   letter-spacing: 0.08em;
   margin-bottom: 35px;
   color: #fff;
-  
+
   font-display: swap;
   font-family: 'Playfair Display', serif;
 }
@@ -188,7 +188,7 @@ h1 {
 h2 {
   font-size: 36px;
   letter-spacing: 0.08em;
-  
+
   font-display: swap;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
@@ -346,9 +346,9 @@ p {
   }
 
   nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
-    
-  font-display: swap;
-  font-family: 'FontAwesome';
+
+    font-display: swap;
+    font-family: 'FontAwesome';
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -448,9 +448,9 @@ p {
   }
 
   nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before {
-    
-  font-display: swap;
-  font-family: 'FontAwesome';
+
+    font-display: swap;
+    font-family: 'FontAwesome';
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -621,6 +621,10 @@ nav.navbar.bootsnav.navbar-fixed .navbar-brand {
   padding: 18px 15px;
 }
 
+.navbar {
+  margin-bottom: 0 !important;
+}
+
 nav.navbar.bootsnav.navbar-fixed ul.nav>li>a {
   padding: 25px 15px;
 }
@@ -685,7 +689,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   line-height: 160%;
   max-width: 620px;
   font-size: 2rem;
-  
+
   font-display: swap;
   font-family: "Lato", sans-serif
 }
