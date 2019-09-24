@@ -3,6 +3,7 @@
     Main Style Stylesheet
     Project:        Vortex. |  StartUp Landing Page Template
     Version:        1.0
+
     Author:         Gnawi Themes
     Last change:    8/29/2016
     Primary use:    Landing,Startup and Showcase.
@@ -622,7 +623,7 @@ nav.navbar.bootsnav.navbar-fixed .navbar-brand {
 }
 
 .navbar {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 nav.navbar.bootsnav.navbar-fixed ul.nav>li>a {
