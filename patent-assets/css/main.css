@@ -14,9 +14,9 @@
 ========================================*/
 body {
   font-display: swap;
-  
+
   font-display: swap;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background: #fff;
   font-size: 14px;
   line-height: 24px;
@@ -99,7 +99,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #F5F8FA;
+  background: #f5f8fa;
   z-index: 100000;
 }
 
@@ -128,8 +128,8 @@ body {
 }
 
 .spinner .rect3 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
 }
 
 .spinner .rect4 {
@@ -180,18 +180,17 @@ h1 {
   letter-spacing: 0.08em;
   margin-bottom: 35px;
   color: #fff;
-  
-  font-display: swap;
-  font-family: 'Playfair Display', serif;
-}
 
+  font-display: swap;
+  font-family: "Playfair Display", serif;
+}
 
 h2 {
   font-size: 36px;
   letter-spacing: 0.08em;
-  
+
   font-display: swap;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   text-align: center;
 }
@@ -346,9 +345,8 @@ p {
   }
 
   nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
-    
-  font-display: swap;
-  font-family: 'FontAwesome';
+    font-display: swap;
+    font-family: "FontAwesome";
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -448,9 +446,8 @@ p {
   }
 
   nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before {
-    
-  font-display: swap;
-  font-family: 'FontAwesome';
+    font-display: swap;
+    font-family: "FontAwesome";
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -621,6 +618,12 @@ nav.navbar.bootsnav.navbar-fixed .navbar-brand {
   padding: 18px 15px;
 }
 
+.navbar {
+  margin-bottom: 0;
+  background-color: white !important;
+  border-bottom: 1px solid #e7e7e7 !important;
+}
+
 nav.navbar.bootsnav.navbar-fixed ul.nav>li>a {
   padding: 25px 15px;
 }
@@ -644,6 +647,10 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   background: url(../img/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#home .container {
+  padding-top: 60px;
 }
 
 #home .caption {
@@ -685,9 +692,9 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   line-height: 160%;
   max-width: 620px;
   font-size: 2rem;
-  
+
   font-display: swap;
-  font-family: "Lato", sans-serif
+  font-family: "Lato", sans-serif;
 }
 
 #home .accent {
@@ -701,7 +708,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 }
 
 #home .form-container {
-  background: #F8FAFB;
+  background: #f8fafb;
   padding: 25px;
   border-radius: 3px;
   border: 1px solid #d8d8d8;
@@ -755,7 +762,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
            Story
 ========================================*/
 #story {
-  background: #F8FAFB;
+  background: #f8fafb;
   padding: 70px 30px;
 }
 
@@ -773,7 +780,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 
 #story .story-content {
   padding: 40px;
-  color: #9D9C9C;
+  color: #9d9c9c;
   display: flex;
 }
 
@@ -918,7 +925,7 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
 
 #price .pricing-container ul li {
   font-size: 15px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin: 15px 0;
 }
 
@@ -1001,8 +1008,8 @@ nav.navbar.bootsnav.navbar-fixed .button-holder {
   border-radius: 50%;
   background: transparent;
   opacity: 1;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #clients #owl-testimonials i {
@@ -1144,12 +1151,14 @@ footer hr {
   margin: 40px 0;
 }
 
-footer img {
-  width: 50px;
+.minimap {
+  width: 100%;
 }
 
 footer ul {
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 footer .offices li {
@@ -1173,5 +1182,5 @@ footer li {
 
 .flex {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
 }
