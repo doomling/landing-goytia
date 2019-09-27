@@ -1162,7 +1162,7 @@ footer hr {
 footer ul {
   padding: 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 footer .offices li {
@@ -1187,4 +1187,14 @@ footer li {
 .flex {
   display: flex;
   align-items: baseline;
+}
+
+@media (max-width: 767px) {
+  footer ul {
+    flex-direction: column;
+  }
+
+  footer .offices li {
+    padding: 0 30px;
+  }
 }
